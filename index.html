@@ -4,15 +4,33 @@
     <head>
 
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css"/>
         <title>Title</title>
 
     </head>
     <body>
-        <img src="images/mario.jpg" alt id="mario" height="400" width="600"/>
-        <h1>Recipes that Mario and Luigi would make</h1>
-        <ul>
-            <li><a href="recipes/lasagna.html">Caprese Chicken Lasagna</a></li>
-            <li><a href="recipes/bolognese.html">BA's Best Bolognese</a></li>
-            <li><a href="recipes/pizzaiola.html">Steak Pizzaiola</a></li>
-        </ul>
+        <img src="images/mario.jpg" id="mario" alt="Mario, Luigi"/>
+        <h1>Recipes that Mario and Luigi would cook</h1>
+
+        <hr>
+        
+            <div class="container">
+                <a href="recipes/lasagna.html"><img src="images/lasagna.jpg" alt="lasagna" class="food" />
+                <div class="center">Chicken Caprese Lasagna</div>
+            </div>
+            <div class="container">
+                <a href="recipes/bolognese.html"><img src="images/bolognese.jpg" alt="bolognese" class="food" />
+                <div class="center">BA's Best Bolognese</div>
+            </div>
+            <div class="container">
+                <a href="recipes/pizzaiola.html"><img src="images/pizzaiola.jpg" alt="pizzaiola" class="food" />
+                <div class="center">Steak Pizzaiola</div>
+            </div>
+
+            <!-- delete div class food. Give each image food class-->
+            <!-- give each image container its own container class-->
+            
+        
     </body>
+
+   

@@ -1,0 +1,64 @@
+body {
+    background-color: #E9967A;
+}
+
+#mario {
+    width:600px;
+    height: auto;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    /* margin to center image. border radius to round image corners */
+}
+
+h1 {
+    text-align: center;  
+    font-size: 35px; 
+    text-shadow: 2px 2px white;
+}
+
+
+.food {
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 10%;
+    
+
+}
+
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 600px; 
+    text-align: center;
+    color: black;
+    font-weight: bold; 
+    font-size: 35px;
+    text-shadow: 2px 2px white;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30px;
+    display: block;
+    
+}
+
+/* Understanding .food affects just the image specs and .container affects positions */
+
+.center {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* center is the text. container is the invisible box the center text lies in */
+
+a:visited{
+    color: black;
+}
+
+/* keep text from chaning purple once clicked */
+
